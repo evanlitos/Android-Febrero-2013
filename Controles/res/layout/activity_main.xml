@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <TextView
+         android:id="@+id/txv_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        />
+    <ToggleButton
+        android:id="@+id/btn_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Apagado"
+        android:textOn="Encendido" />
+	<ImageButton
+	     android:id="@+id/btn_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/disc"
+        android:contentDescription="Disco"
+        android:background="@null"
+	    />
+	<ImageView
+	     android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/video"
+        android:layout_gravity="center"
+         android:contentDescription="Imagen"
+	    />
+	<CheckBox
+	     android:id="@+id/btn_chkbx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presiona para cambiar imagen"
+	    />
+	
+	
+	<RadioGroup
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/radioGroup"
+	    android:orientation="vertical" 
+	    >
+	    <RadioButton
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="Rojo"
+	        android:id="@+id/rb_1" 
+	        />
+	    <RadioButton
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="Green"
+	        android:id="@+id/rb_2" 
+	        />
+	    <RadioButton
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="Blue"
+	        android:id="@+id/rb_3" 
+	        />
+	</RadioGroup>
+    
+	
+	
+</LinearLayout>
